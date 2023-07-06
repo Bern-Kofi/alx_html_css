@@ -9,16 +9,25 @@ main
         display: flex;
         flex-direction: row;
         flex: auto;
-        background-color: whitesmoke;
+        background-color: wheat;
     }
+
 article
     {
         flex: 2;
         overflow-y: auto;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
-    aside
-{
+
+h2,h3,h4
+    {
+        background-color: whitesmoke;
+        font-style: italic;
+        font-family: sans-serif;
+    }
+
+aside
+    {
         flex: 1;
         overflow-y: auto;
     }
