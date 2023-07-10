@@ -17,6 +17,7 @@ article
         flex: 2;
         overflow-y: auto;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: green;
     }
 
 h2,h3,h4
@@ -30,4 +31,10 @@ aside
     {
         flex: 1;
         overflow-y: auto;
+        background-color: wheat;
+    }
+table
+    {
+        table-layout: fixed;
+        table border;
     }
