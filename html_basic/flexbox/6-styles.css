@@ -205,7 +205,7 @@
   
   /* Navbar
       ============================= */
-
+  
   .nav {
     display: flex;
     margin: 0;
@@ -214,17 +214,20 @@
     text-align: center;
   }
   
+  .nav-item + .nav-item {
+    margin: 0 0 0 2rem;
+  }
+
   .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: var(--nav-item-margin);
+   
   }
+  
 
-  .nav-item + .nav-item{
-    margin: var(0 0 0 2rem);
-  }
+  
   
   .nav .nav-link {
     display: block;
