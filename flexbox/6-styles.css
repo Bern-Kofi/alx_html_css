@@ -212,9 +212,10 @@
     padding: 0;
     list-style: none;
     text-align: center;
-    .nav-item + .nav-item {
-      margin: var(0 0 0 2rem);
-    }
+  }
+  
+  .nav-item + .nav-item {
+    margin: var(0 0 0 2rem);
   }
   
   .nav .nav-item {
