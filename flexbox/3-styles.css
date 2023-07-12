@@ -372,9 +372,16 @@
     padding: 10rem 40rem 2rem 0;
   }
 
-  /*Section Latest news ============================= */
-  .row
+  /* Section Latest news ============================= */
+  .section-latest-news .container .section-body .row {
+    flex-direction: row-reverse;
+  }
   
+  /* Section SERVICES ============================= */
+.section-services .container .section-body .row {
+    flex-wrap: wrap;
+}
+
   /*** 4. CARD ***/
   
   /* Card (all styles)
