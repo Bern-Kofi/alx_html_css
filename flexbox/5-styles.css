@@ -265,10 +265,11 @@ justify-content: space-between;
   }
 
   .header-logo {
-    
+    display: none;
   }
 
   .header-logo a {
+    display: none;
     display: var();
     position: var();
     top: var()
