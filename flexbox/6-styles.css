@@ -61,11 +61,7 @@
   
     /** HEADER **/
     --header-padding: 4rem 0 0;
-    --header-logo-position: relative;
-    --header-logo-link-display: inline-block;
-    --header-logo-link-position: absolute;
-    --header-logo-link-top: -1rem;
-    --header-logo-link-left: 0;
+
   
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
@@ -214,13 +210,7 @@
     text-align: center;
   }
   
-  .nav .nav-item {
-    font-family: var(--nav-item-font-family);
-    font-weight: var(--nav-item-font-weight);
-    font-size: var(--nav-item-font-size);
-    letter-spacing: var(--nav-item-letter-spacing);
-    margin: var(--nav-item-margin);
-  }
+  
 
   .nav .nav-item + .nav-item{
     margin: var(0 0 0 2rem);
