@@ -264,17 +264,6 @@ justify-content: space-between;
          background: transparent;
   }
 
-  .header-logo {
-    display: none;
-  }
-
-  .header-logo a {
-    display: none;
-    display: var();
-    position: var();
-    top: var()
-    left: var()
-  }
   
   /* Footer
       ============================= */
